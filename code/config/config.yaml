@@ -1,0 +1,52 @@
+dataio:
+  expname: test
+  exps_folder_name: exp
+  data_path: D:/data/data/camera.xyz
+
+train:
+  batch_size: 2
+  nepoch: 10000
+  points_batch: 4096
+  lr_base: 0.001
+  lr_fine: 0.0001
+  lr_inter: 0.0001
+  save_frequency: 5000
+  clip_grad: True
+  progress: {'base':[0,0.2,1], 'fine':[0,0.2,1], 'inter':[0,0.2,1]}
+  lr_factor: {'base':[1,1,0.1], 'fine':[1,1,0.1], 'inter':[0,1,0.1]}
+  weight: [1,0,0]
+
+plot:
+  resolution: 512
+  mc_value: 0.0
+  is_uniform_grid: True
+  verbose: False
+  save_html: False
+  save_ply: True
+  overwrite: True
+
+
+MLP:
+  dim_in: 3
+  dim_out: 1
+  dim_hidden: [256,256,256,256]
+  geometric_init: True
+  radius_init: 1
+  beta: 100
+
+
+Siren:
+  dim_in: 3
+  dim_hidden: [256,256,256,256]
+  dim_out: 1
+  w0: 30.
+  w0_first: 30.
+  use_bias: True
+  
+
+PNet:
+  dim_in: 3
+  dim_hidden: [256,256,256,256]
+  dim_out: 1
+  w0: 1.
+  w0_first: 60.
