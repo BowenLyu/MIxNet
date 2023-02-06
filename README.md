@@ -15,7 +15,7 @@ We recommend you to use anaconda to make sure that all dependencies are in place
 
 The ABC dataset is used in this paer, you can visit their official website to download it.
 
-We also provide several [examples](https://drive.google.com/drive/folders/17SBJX__rYpAySYqxEyaP8Cq-iO2JZOHQ?usp=sharing) for test our network.
+We also provide several [examples](https://drive.google.com/drive/folders/17SBJX__rYpAySYqxEyaP8Cq-iO2JZOHQ?usp=sharing) for testing our network.
 
 ## Usage
 
