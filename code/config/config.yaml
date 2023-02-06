@@ -1,7 +1,7 @@
 dataio:
   expname: test
   exps_folder_name: exp
-  data_path: D:/data/data/camera.xyz
+  data_path: data/camera.xyz
 
 train:
   batch_size: 2
