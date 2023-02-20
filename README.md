@@ -44,3 +44,7 @@ According to `config/config.yaml`:
     ...
 
 After finishing the training, the reconstrution results can be found in the export folder: `..\exp\recon\`.
+
+## Results
+[result1](./all.jpg "result1")
+[result2](./visualization_general.jpg "result2")
